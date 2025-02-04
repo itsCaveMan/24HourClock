@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/24HourClock/static/css/main.e6c13ad2.css",
+    "main.js": "/24HourClock/static/js/main.34e8c79b.js",
+    "static/js/453.5e9c22d3.chunk.js": "/24HourClock/static/js/453.5e9c22d3.chunk.js",
+    "index.html": "/24HourClock/index.html",
+    "main.e6c13ad2.css.map": "/24HourClock/static/css/main.e6c13ad2.css.map",
+    "main.34e8c79b.js.map": "/24HourClock/static/js/main.34e8c79b.js.map",
+    "453.5e9c22d3.chunk.js.map": "/24HourClock/static/js/453.5e9c22d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.34e8c79b.js"
+  ]
+}
