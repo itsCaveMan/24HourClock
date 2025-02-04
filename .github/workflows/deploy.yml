@@ -3,10 +3,10 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # Deploy whenever main branch is updated
+      - main  # Deploy when main is updated
 
 permissions:
-  contents: write  # Allows pushing to gh-pages branch
+  contents: write  # Allows pushing to gh-pages
 
 jobs:
   build-and-deploy:
@@ -21,8 +21,8 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install dependencies (Ignore peer conflicts)
+        run: npm install --legacy-peer-deps
 
       - name: Build project
         run: npm run build
